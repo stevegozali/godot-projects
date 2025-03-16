@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2om6c2a2sn6y"
+path="res://.godot/imported/SnakeProject_Sound_crunch.wav-1e28a430c45ab3dd105716f44834cbca.sample"
+
+[deps]
+
+source_file="res://Godot Assets/SnakeProject_Sound_crunch.wav"
+dest_files=["res://.godot/imported/SnakeProject_Sound_crunch.wav-1e28a430c45ab3dd105716f44834cbca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

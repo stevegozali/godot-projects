@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cy7q71hua7j8a"]
+
+[ext_resource type="Script" uid="uid://bxlbwal8rcpsg" path="res://score.gd" id="1_jchje"]
+[ext_resource type="FontFile" uid="uid://c4fd2bdcs648l" path="res://Godot Assets/PoetsenOne-Regular.ttf" id="1_kw1yr"]
+[ext_resource type="Texture2D" uid="uid://bpqsiua1kwx26" path="res://Godot Assets/apple.png" id="3_w6s86"]
+
+[node name="Score" type="Node2D" groups=["ScoreGroup"]]
+script = ExtResource("1_jchje")
+
+[node name="ScoreText" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0.219608, 0.290196, 0.0470588, 1)
+theme_override_fonts/font = ExtResource("1_kw1yr")
+text = "0"
+
+[node name="Apple" type="Sprite2D" parent="."]
+texture = ExtResource("3_w6s86")
